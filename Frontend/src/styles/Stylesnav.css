@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Comfortaa&family=Lobster&family=Montserrat:ital,wght@0,100;1,100&family=Quicksand:wght@300;400&display=swap');
+.NavB {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+.NombreM {
+    font-family: 'Abel', sans-serif;}

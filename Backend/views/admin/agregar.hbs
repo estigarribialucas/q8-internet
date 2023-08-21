@@ -1,0 +1,25 @@
+<form class="box p-5" action="/admin/novedades/agregar" enctype="multipart/form-data" method="post">
+    <div class="row">
+        <h3 class="Tlogin col">Agregar Noticia</h3>
+        <a href="/admin/novedades" class="nav-link btn-outline-dark col-1"><i
+                class="fa-solid fa-circle-chevron-left"></i></a>
+    </div>
+    <div class="mb-3 mt-3">
+        <label for="exampleInputEmail1" class="form-label">| Titulo</label>
+        <input type="text" class="form-control" name="titulo" id="inputUser">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">| Subtitulo</label>
+        <input type="subtitulo" class="form-control" name="subtitulo" id="subtitulo">
+    </div>
+    <h6>| Imagen</h6>
+    <div class="input-group mb-3">
+        <label class="input-group-text" for="imagen"><i class="fa-solid fa-image"></i></label>
+        <input type="file" name="imagen" class="form-control" id="imagen">
+    </div>
+    <div class="mb-3">
+        <label for="cuerpo" class="form-label">| Cuerpo</label>
+        <textarea class="form-control" id="cuerpo" name="cuerpo" rows="5"></textarea>
+    </div>
+    <button type="submit" class="btn btn-outline-dark ">Guardar</button>
+</form>

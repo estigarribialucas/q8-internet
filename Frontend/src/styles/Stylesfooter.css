@@ -1,0 +1,9 @@
+.footer {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 17px 17px 17px ;
+    margin-top: 8px;
+}
+.Linea {
+    border-top: 1px solid rgb(156, 156, 156);
+    margin: 20px 10% 20px 10%;
+}

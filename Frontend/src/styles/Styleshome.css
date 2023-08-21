@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Comfortaa&family=Lobster&family=Montserrat:ital,wght@0,100;1,100&family=Quicksand:wght@300;400&display=swap');
+.Carrusel {
+    margin-top: 25px;
+}
+.imgcarrusel{
+    padding: 4px;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(156, 153, 153);
+}
+.testimonios {
+    font-family: 'Montserrat';
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid rgb(89, 89, 89);
+    border-radius: 20px;
+}
+.Planes {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card {
+    margin-top: 20px;
+    width: 18rem ;
+}
+
+.blockquote {
+    margin-top: 50px;
+    text-align: center;
+}
+.linea {
+    border-top: 1px solid rgb(156, 156, 156);
+    height: 2px;
+    padding: 0;
+    margin: 40px auto 0 auto;
+}
+
+.linea1 {
+    border-top: 1px solid rgb(156, 156, 156);
+    height: 2px;
+    padding: 0;
+    margin: 15px auto 15px auto;
+}

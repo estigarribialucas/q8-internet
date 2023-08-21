@@ -1,0 +1,40 @@
+<div class="box container">
+    <nav class="navbar bg-white mt-3 rounded-top">
+        <div class="container-fluid">
+            <h2 class="N ms-2">Editor de Novedades</h2>
+            <div class="col-6 text-end">
+                <a class="btn btn-outline-success" href="/admin/novedades/agregar"><i class="fa-solid fa-newspaper"></i>
+                    | Nueva noticia<a />
+            </div>
+            </form>
+        </div>
+    </nav>
+    <table class="table rounded-bottom">
+        <thead>
+            <tr>
+                <th scope="col" class="col">#</th>
+                <th scope="col" class="col">Titulo</th>
+                <th scope="col" class="col">Subtitulo</th>
+                <th scope="col" class="col">Cuerpo</th>
+                <th scope="col" class="col">Imagen</th>
+                <th scope="col" class="col-2">acciones</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            {{#each novedades}}
+            <tr>
+                <th scope="row "> {{id}} </th>
+                <td>{{titulo}}</td>
+                <td>{{subtitulo}}</td>
+                <td>{{cuerpo}}</td>
+                <td>{{{imagen}}}</td>
+                <td><a href="/admin/novedades/modificar/{{id}}" type="button" class="btn btn-sm btn-dark-outline"><i
+                            class="fa-solid fa-wand-magic"></i><a />
+                        <a href="/admin/novedades/eliminar/{{id}}" type="button" class="btn btn-sm btn-dark-outline"><i
+                                class="fa-solid fa-trash-can"></i></a>
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,17 @@
+<form class="box p-5" action="/admin/login" method="post">
+<h3 class="Tlogin">Login</h3>
+{{#if error}}
+<p><i class="fa-solid fa-circle-exclamation"></i> Usuario y/o contraseña incorrecto</p>
+{{/if}}
+<div class="mb-3 mt-3">
+    <label for="exampleInputEmail1" class="form-label">| <i class="fa-solid fa-user"></i></label>
+    <input type="text" class="form-control" name="usuario" id="inputUser">
+</div>
+<div class="mb-3">
+    <label class="form-label">| <i class="fa-solid fa-lock"></i></label>
+    <input type="password" class="form-control" name="password" id="inputPassword">
+</div>
+<button type="submit" class="btn btn-outline-dark ">Ingresar</button>
+</form>
+
+
